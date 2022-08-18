@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICSO Learning</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/logo-header.png" type="image/x-icon">
+    <!-- Library CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.1.2-web/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav-area w-full bg-white z-100 fixed top-0">
+        <div class="container">
+            <nav class="w-full h-full flex items-center justify-between relative border-bottom">
+                <a href="../index.html" class="logo">
+                    <img src="../assets/logo.jpg" class="w-full h-full object-cover">
+                </a>
+                <ul id="myNav" class="nav-menu w-60 flex sm-flex-col items-center sm-items-start justify-between hidden sm-w-full sm-absolute sm-border sm-rounded bg-white">
+                    <a href="../index.html#" class="nav-items"><li class="nav-links">Home</li></a>
+                    <a href="../index.html#about" class="nav-items"><li class="nav-links">Tentang Kami</li></a>
+                    <a href="../src/lesson-start.html" class="nav-items"><li class="nav-links active">Panduan Belajar</li></a>
+                    <a href="../index.html#portfolio" class="nav-items"><li class="nav-links">Portfolio</li></a>
+                    <a href="../index.html#footer" class="nav-items"><li class="nav-links">Kontak Kami</li></a>
+                    <a href="login.html" class="btn-login fs-14 color-white"><li class="poppins">Login</li></a>
+                </ul>
+                <div class="show lg-hidden">
+                    <i class="fa fa-bars fs-30 color-base navbar_toggle"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="space"></div>
+    <section id="lesson">
+        <div class="container">
+            <div class="py-5 sm-py-0">
+                <i class='bx bx-arrow-back fs-32 color-main pointer' onclick="window.history.back()"></i>
+            </div>
+            <div class="flex sm-flex-col justify-between flex-wrap sm-py-0">
+                <div class="w-33 sm-w-full sm-py-6 px-2">
+                    <div class="class-lesson flex flex-col full justify-between">
+                        <div class="rounded w-full">
+                            <img src="../assets/lesson-banner.svg" width="100%" class="object-cover mb-2">
+                            <article class="w-full">
+                                <h3 class="fw-bold fs-20 lh-50">Komputer Dasar</h3>
+                                <p class="fs-14 lh-25 color-base text-justify">
+                                    Sebelum menggali lebih dalam dari dunia teknologi kita perlu membawa pembekalan tentang Komputer dan seluk beluk tentang Komputer terlebih Dahulu
+                                </p>
+                            </article>
+                        </div>
+                        <a href="ics-learn.html" class="opened-lesson"><span class="poppins">Mulai belajar </span></a>
+                    </div>
+                </div>
+                <div class="w-33 sm-w-full sm-py-6 px-2">
+                    <div class="class-lesson flex flex-col full justify-between">
+                        <div class="rounded w-full">
+                            <img src="../assets/lesson-develop.svg" width="100%" class="object-cover mb-2">
+                            <article class="w-full">
+                                <h3 class="fw-bold fs-20 lh-50">Web Development</h3>
+                                <p class="fs-14 lh-25 color-base text-justify">
+                                    Web Development adalah salah satu bidang yang icso yang mempelajari cara membuat sebuah program aplikasi berbasis website.
+                                </p>
+                            </article>
+                        </div>
+                        <a href="" class="locked-lesson"><span class="poppins">Mulai belajar </span><i class='bx bx-lock fs-20 color-white absolute right-2'></i></a>
+                    </div>
+                </div>
+                <div class="w-33 sm-w-full sm-py-6 px-2">
+                    <div class="class-lesson flex flex-col full justify-between">
+                        <div class="rounded w-full">
+                            <img src="../assets/lesson-design.svg" width="100%" class="object-cover mb-2">
+                            <article class="w-full">
+                                <h3 class="fw-bold fs-20 lh-50">Web Design</h3>
+                                <p class="fs-14 lh-25 color-base text-justify">
+                                    Web Design adalah salah satu bidang yang icso mempelajari cara membuat sebuah design dari aplikasi atau website yang nantinya akan di kerjakan oleh bidang Web development
+                                </p>
+                            </article>
+                        </div>
+                        <a href="ics-learn.html" class="locked-lesson"><span class="poppins">Mulai belajar </span><i class='bx bx-lock fs-20 color-white absolute right-2'></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../js/main.js"></script>
+</html>

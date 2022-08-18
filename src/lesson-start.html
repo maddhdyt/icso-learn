@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICSO Learning</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/logo-header.png" type="image/x-icon">
+    <!-- Library CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.1.2-web/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav-area w-full bg-white z-100 fixed top-0">
+        <div class="container">
+            <nav class="w-full h-full flex items-center justify-between relative border-bottom">
+                <a href="../index.html" class="logo">
+                    <img src="../assets/logo.jpg" class="w-full h-full object-cover">
+                </a>
+                <ul id="myNav" class="nav-menu w-60 flex sm-flex-col items-center sm-items-start justify-between hidden sm-w-full sm-absolute sm-border sm-rounded bg-white">
+                    <a href="../index.html#" class="nav-items"><li class="nav-links">Home</li></a>
+                    <a href="../index.html#about" class="nav-items"><li class="nav-links">Tentang Kami</li></a>
+                    <a href="#" class="nav-items"><li class="nav-links active">Panduan Belajar</li></a>
+                    <a href="../index.html#portfolio" class="nav-items"><li class="nav-links">Portfolio</li></a>
+                    <a href="../index.html#footer" class="nav-items"><li class="nav-links">Kontak Kami</li></a>
+                    <a href="login.html" class="btn-login fs-14 color-white"><li class="poppins">Login</li></a>
+                </ul>
+                <div class="show lg-hidden">
+                    <i class="fa fa-bars fs-30 color-base navbar_toggle"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="space"></div>
+    <section id="lesson">
+        <div class="container">
+            <div class="py-8 sm-py-0">
+                <i class='bx bx-arrow-back fs-32 color-main pointer' onclick="window.history.back()"></i>
+            </div>
+            <div class="flex sm-flex-col-reverse mb-20">
+                <article class="w-half sm-w-full">
+                    <span class="title">Panduan belajar</span>
+                    <h2 class="fs-36 font-bold lh-50 py-3">Bingung mau mulai<br>dari mana?</h2>
+                    <p class="desc-text-md lh-30 mb-8">Untuk mengikuti seluruh kelas pembelajaran yang ada di ICSO teman teman harus tergabung pada Ekstrakulikulernya terlebih dahulu karna setiap pembelajaran dan setiap bagian dari kelas kelas yang tersedia akan di bahas saat ekskul nanti.</p>
+                    <a href="lesson-list.html" class="bg-main py-2 px-6 rounded poppins color-white">Mulai belajar</a>
+                </article>
+                <div class="w-half sm-w-full sm-py-5">
+                    <img src="../assets/navigation.svg" width="100%" class="object-cover">
+                </div>  
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../js/main.js"></script>
+</html>

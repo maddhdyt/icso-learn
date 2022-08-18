@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICSO Learning</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/logo-header.png" type="image/x-icon">
+    <!-- Library CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.1.2-web/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav-area w-full bg-white z-100 fixed top-0">
+        <div class="container">
+            <nav class="w-full h-full flex items-center justify-between relative border-bottom">
+                <a href="../index.html" class="logo">
+                    <img src="../assets/logo.jpg" class="w-full h-full object-cover">
+                </a>
+                <ul id="myNav" class="nav-menu w-60 flex sm-flex-col items-center sm-items-start justify-between hidden sm-w-full sm-absolute sm-border sm-rounded bg-white">
+                    <a href="../index.html#" class="nav-items"><li class="nav-links active">Home</li></a>
+                    <a href="../index.html#about" class="nav-items"><li class="nav-links">Tentang Kami</li></a>
+                    <a href="../src/lesson-start.html" class="nav-items"><li class="nav-links">Panduan Belajar</li></a>
+                    <a href="../index.html#portfolio" class="nav-items"><li class="nav-links">Portfolio</li></a>
+                    <a href="../index.html#footer" class="nav-items"><li class="nav-links">Kontak Kami</li></a>
+                    <a href="login.html" class="btn-login fs-14 color-white"><li class="poppins">Login</li></a>
+                </ul>
+                <div class="show lg-hidden">
+                    <i class="fa fa-bars fs-30 color-base navbar_toggle"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="space"></div>
+    <section id="register">
+        <div class="container">
+            <div class="relog py-10 sm-py-8">
+                <div class="relog-wrapper">
+                    <h2 class="relog-title">Login</h2>
+                    <p class="relog-desc">Silahkan login terlebih dahulu</p>
+                    <form action="" class="relog-container py-4 mt-3 sm-mt-0">
+                        <div class="relog-form-wrapper"><div class="relog-icon"><i class='bx bx-user fs-18 color-white'></i></div><input type="text" class="relog-form-control" placeholder="Username atau email"></div>
+                        <div class="relog-form-wrapper mt-5"><div class="relog-icon"><i class='bx bx-lock-alt fs-18 color-white'></i></div><input type="password" class="relog-form-control" placeholder="Password"></div>
+                        <div class="w-full flex justify-end"><a href="#" class="color-main fs-12 py-3">Lupa kata sandi?</a></div>
+                        <!-- <button type="submit" class="relog-btn">Login</button> -->
+                        <a href="../home.html" class="relog-btn block text-center">Login</a>
+                    </form>
+                    <div class="relog-container flex items-center justify-between mt-1 pb-4"><span class="line"></span><p class="block px-4 color-base fs-12 fw-light poppins">Atau</p><span class="line"></span></div>
+                    <div class="relog-container flex flex-col justify-between">
+                        <div class="w-full mb-3"><a href="" class="other-method"><i class='bx bxl-google fs-20 ml-1 absolute left-2' ></i>Sign in with Google</a></div>
+                        <div class="w-full"><a href="" class="other-method"><i class='bx bxl-facebook-square fs-20 ml-1 absolute left-2'></i>Sign in with Facebook</a></div>
+                    </div>
+                    <div class="confirm">Belum punya akun? <a href="register.html" class="color-main">daftar sekarang</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../js/main.js"></script>
+</html>

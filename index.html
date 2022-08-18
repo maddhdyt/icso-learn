@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>ICSO Learning</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/logo-header.png"
+      type="image/x-icon"
+    />
+    <!-- Library CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="nav-area">
+      <div class="container">
+        <nav
+          class="navbar justify-between"
+        >
+          <a href="index.html" class="logo">
+            <img src="assets/logo.jpg" class="w-full h-full object-cover" />
+          </a>
+          <ul
+            id="myNav"
+            class="nav-menu hidden"
+          >
+            <a href="#" class="nav-items">
+              <li class="nav-links active">Home</li>
+            </a>
+            <a href="#about" class="nav-items">
+              <li class="nav-links">Tentang Kami</li>
+            </a>
+            <a href="src/lesson-start.html" class="nav-items">
+              <li class="nav-links">Panduan Belajar</li>
+            </a>
+            <a href="#portfolio" class="nav-items">
+              <li class="nav-links">Portfolio</li>
+            </a>
+            <a href="#footer" class="nav-items">
+              <li class="nav-links">Kontak Kami</li>
+            </a>
+            <a
+              href="src/login.html"
+              class="btn-login fs-14 color-white sm-mt-2"
+            >
+              <li class="poppins">Login</li>
+            </a>
+          </ul>
+          <div class="show lg-hidden">
+            <i class="fa fa-bars fs-30 color-base navbar_toggle"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="hero" class="mt-16">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="header-title">
+            <span class="poppins fs-14 color-base">Selamat datang, </span>
+            <h1 class="sm-w-full sm-fs-34 fs-48 py-2 mb-2">
+              Berkembang<br />bersama <span class="color-main">Teknologi</span>
+            </h1>
+            <span class="fs-14 color-base"
+              >Kami merupakan organisasi intern dari SMK INFORMATIKA SUMEDANG
+              yang mempelajari banyak hal tentang dunia teknologi</span
+            >
+            <form action="" class="poppins fs-14 flex mt-7 w-full">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="w-full block border rounded-left p-3 outline-none"
+                placeholder="example@example.com"
+              /><button
+                type="submit"
+                class="block p-3 rounded-right bg-main border-none color-white poppins"
+              >
+                Gabung
+              </button>
+            </form>
+          </div>
+          <div
+            class="banner my-8 sm-mb-0"
+          >
+            <img
+              src="assets/Group 20.png"
+              alt="banner"
+              class="w-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="about-wrapper sm-mt-10">
+          <div class="about-image sm-mt-4">
+            <div
+              class="side-pic my-auto mr-2"
+            >
+              <div class="dark-bg-effect"></div>
+              <img
+                src="assets/Rectangle 11.svg"
+                alt="side-pic"
+                class="w-full h-full object-cover absolute top-0"
+              />
+            </div>
+            <div class="main-pic">
+              <div class="dark-bg-effect"></div>
+              <img
+                src="assets/Rectangle 12 (1).svg"
+                alt="main-pic"
+                class="w-full h-full object-cover absolute top-0"
+              />
+            </div>
+          </div>
+          <article
+            class="about-article"
+          >
+            <h2 class="fs-32 fw-bold color-title pb-4">Apa itu ICSO?</h2>
+            <p class="desc-text py-2">
+              <i>Informatika Creative Student Organitation</i>
+              atau ICSO adalah salah satu extrakulikuler internal yang ada di
+              SMK INFORMATIKA SUMEDANG yang mempelajari dua bidang teknologi
+              yang berhubungan langsung dengan jurusan yang ada.
+            </p>
+            <p class="desc-text py-2">
+              Di dirikan pada tahun 2015 lebih tepatnya pada bulan oktober
+              tanggal 20 ICSO di dirikan dan hingga sekarang ICSO masih aktif
+              dalam kegiatan sekolah dan beberapa kontribusi kami bisa di lihat
+              pada bagian selanjutnya.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="lesson" class="mt-20 sm-mt-10">
+      <div class="container">
+        <div class="flex sm-flex-col justify-between">
+          <artickle
+            class="w-40 sm-w-full flex flex-col py-2 sm-pt-10 sm-pb-12 sm-items-center"
+          >
+            <span class="title">Mulai belajar hari ini.</span>
+            <h2 class="fs-36 sm-fs-32 fw-bold color-title py-4 sm-text-center">
+              Materi apa saja yang tersedia?
+            </h2>
+            <p
+              class="fs-16 sm-fs-14 color-base fw-normal lh-25 pb-10 sm-text-center text-justify"
+            >
+              Kulikulum terupdate jadi siswa dapat langsung menyesuaikan dan
+              mempraktekannya,Materi yang di sajikan cukuplah beragam Mulai dari
+              Pengembangan Softskill hingga Hardskill.
+            </p>
+            <div>
+              <a
+                href="src/lesson-start.html"
+                class="bg-main py-2 px-4 rounded color-white fs-14"
+                >Mulai Belajar</a
+              >
+            </div>
+          </artickle>
+          <div
+            class="w-55 sm-w-full flex flex-wrap justify-between pl-4 sm-p-0"
+          >
+            <div class="w-55 h-half sm-w-full p-1">
+              <div class="w-full h-full rounded px-4 py-3 gr-blue">
+                <img src="./assets/Guide.svg" alt="" />
+                <h4 class="fs-16 fw-bold py-2">PanduBelajar</h4>
+                <p class="fs-12 color-base">
+                  Memandu kamu yang kebingungan Mulai belajar dari mana
+                </p>
+              </div>
+            </div>
+            <div class="w-45 sm-w-full h-half p-1">
+              <div class="w-full h-full rounded px-4 py-3 gr-orange">
+                <img src="./assets/Softskill.svg" alt="" />
+                <h4 class="fs-16 fw-bold py-2">SoftSkill</h4>
+                <p class="fs-12 color-base">
+                  Upgrade skill Pribadimu di kategori ini.
+                </p>
+              </div>
+            </div>
+            <div class="w-45 sm-w-full h-half p-1">
+              <div class="w-full h-full rounded px-4 py-3 gr-green">
+                <img src="./assets/Design.svg" alt="" />
+                <h4 class="fs-16 fw-bold py-2">UI/UX</h4>
+                <p class="fs-12 color-base">Kelas UI/UX dan Design grafis.</p>
+              </div>
+            </div>
+            <div class="w-55 sm-w-full h-half p-1">
+              <div class="w-full h-full rounded px-4 py-3 gr-purple">
+                <img src="./assets/Develop.svg" alt="" />
+                <h4 class="fs-16 fw-bold py-2">Web Development</h4>
+                <p class="fs-12 color-base">
+                  Kelas pemrograman Web dan Fundamental Pemrograman.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="mt-10">
+      <div class="container">
+        <div class="portfolio flex flex-col">
+          <!-- showcase -->
+          <div class="flex sm-flex-col">
+            <article
+              class="w-half flex flex-col justify-center sm-w-full py-10 sm-py-5"
+            >
+              <span class="title">Project & Prestasi ICSO</span>
+              <h2
+                class="fs-36 w-half sm-w-full sm-fs-32 fw-bold color-title py-4"
+              >
+                ICSO PROJECT SHOWCASE
+              </h2>
+              <p class="fs-16 sm-fs-14 color-base fw-normal lh-25 text-justify">
+                Selain mempelajari seluruh materi yang ada para siswa yang
+                tergabung akan di beri tugas untuk membuat setidaknya satu karya
+                digital berupa website ataupun design website dan aplikasi.
+              </p>
+            </article>
+            <div
+              class="w-half sm-w-full flex justify-end sm-justify-start sm-py-5"
+            >
+              <div class="w-70 sm-mx-auto">
+                <img
+                  src="assets/Prototype.png"
+                  width="100%"
+                  class="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- luarkelas -->
+          <div class="flex sm-flex-col-reverse">
+            <div class="w-half sm-w-full sm-py-10">
+              <div class="w-70 sm-mx-auto">
+                <img
+                  src="assets/Prototype.png"
+                  width="100%"
+                  class="object-cover"
+                />
+              </div>
+            </div>
+            <article class="w-half flex flex-col justify-center sm-w-full">
+              <h2
+                class="fs-36 w-70 sm-w-full sm-fs-32 fw-bold color-title py-4"
+              >
+                Luar kelas Forum Apps
+              </h2>
+              <p
+                class="fs-16 w-90 sm-w-full sm-fs-14 color-base fw-normal lh-25 pb-8 text-justify"
+              >
+                Kulikulum terupdate jadi siswa dapat langsung menyesuaikan dan
+                mempraktekannya, materi yang di sajikan cukuplah beragam, mulai
+                dari pengembangan softskill hingga hardskill.
+              </p>
+              <div>
+                <a
+                  href="https://instagram.com/icsoifsu.official"
+                  class="bg-main py-2 px-4 rounded color-white fs-14"
+                  >Selengkapnya</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testi" class="mt-15 sm-mt-0 mb-20 sm-mb-10">
+      <div class="container">
+        <div class="testi flex flex-col mb-15">
+          <div class="w-full flex flex-col items-center">
+            <span class="title">Testimonial</span>
+            <h4 class="fw-bold fs-24 lh-35 poppins text-center py-2">
+              Ini kata mereka yang<br />mengikuti kelas di ICSO
+            </h4>
+          </div>
+          <div class="w-full">
+            <div
+              class="w-80 mx-auto sm-w-full flex sm-flex-col justify-between"
+            >
+              <div class="w-half sm-w-full p-3 mt-10 sm-mt-5">
+                <div class="w-full border rounded p-4">
+                  <img src="assets/Quotes.svg" alt="" />
+                  <p class="fs-14 color-base mt-5">
+                    Lörem ipsum megang kontrav så monotos. Geonat kalånas,
+                    vinade bing.Lörem ipsum megan.
+                  </p>
+                  <div class="flex mt-5">
+                    <div class="logo">
+                      <img
+                        src="assets/human-2.svg"
+                        class="w-full h-full object-cover"
+                      />
+                    </div>
+                    <div class="flex flex-col justify-center px-4">
+                      <h5 class="color-title fs-16 fw-semibold">Wade Warren</h5>
+                      <span class="color-base fs-12 mt-2"
+                        >ilustration Designer</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-half sm-w-full p-3 mt-10 sm-mt-0">
+                <div class="border rounded p-4">
+                  <img src="assets/Quotes.svg" alt="" />
+                  <p class="fs-14 color-base mt-5">
+                    Lörem ipsum megang kontrav så monotos. Geonat kalånas,
+                    vinade bing.Lörem ipsum megan.
+                  </p>
+                  <div class="flex mt-5">
+                    <div class="logo">
+                      <img
+                        src="assets/human.svg"
+                        class="w-full h-full object-cover"
+                      />
+                    </div>
+                    <div class="flex flex-col justify-center px-4">
+                      <h5 class="color-title fs-16 fw-semibold">Robert Fox</h5>
+                      <span class="color-base fs-12 mt-2"
+                        >Frontend Developer</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col items-center bg-main rounded-lg sm-rounded-md py-12"
+        >
+          <article
+            class="flex flex-col text-center sm-text-start color-white w-half sm-w-80 mb-10 sm-mb-8"
+          >
+            <h3
+              class="fs-32 sm-fs-28 lh-45 sm-lh-35 fw-bold sm-fw-semibold poppins"
+            >
+              Mulailah membangun langkah langkah kecil menuju kesuksesan.
+            </h3>
+            <p
+              class="fs-18 sm-fs-14 fw-light mt-2 sm-mt-5 lh-30 sm-lh-20 poppins"
+            >
+              Langkah langkah tersebut merupakan menemukan, mengembangkan dan
+              meningkatkan skill yang ada pada dirimu.
+            </p>
+          </article>
+          <div>
+            <a
+              href="src/lesson-start.html"
+              class="py-2 px-4 rounded bg-white color-main fs-14 poppins"
+              >Mulai Belajar</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <div class="w-full flex sm-flex-col-reverse justify-between mb-5">
+          <div
+            class="footer flex flex-col sm-items-center w-45 sm-w-full sm-mt-5"
+          >
+            <div class="logo">
+              <img src="assets/logo.jpg" width="100%" class="object-cover" />
+            </div>
+            <p
+              class="w-60 sm-w-full sm-text-center color-base fs-14 lh-25 mt-4 pb-5 poppins"
+            >
+              Website pembelajaran online untuk meningkatkan kemampuan seseorang
+              dalam Dunia kerja.
+            </p>
+            <div class="w-full mt-4 flex sm-justify-center">
+              <div class="w-full sm-w-half flex flex-col sm-text-center">
+                <h6 class="fs-16 fw-semibold pb-4 sm-pb-3 poppins">Navigasi</h6>
+                <ul class="flex sm-flex-col w-full justify-between poppins">
+                  <li class="sm-pb-2 fs-14 sm-lh-25">
+                    <a href="#" class="color-base">Home</a>
+                  </li>
+                  <li class="sm-pb-2 fs-14 sm-lh-25">
+                    <a href="#" class="color-base">Terms of Use</a>
+                  </li>
+                  <li class="sm-pb-2 fs-14 sm-lh-25">
+                    <a href="#" class="color-base">Privacy Police</a>
+                  </li>
+                  <li class="sm-pb-2 fs-14 sm-lh-25">
+                    <a href="#" class="color-base">About Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="w-full mt-5 lg-hidden">
+              <h6 class="fs-16 fw-semibold poppins sm-text-center">
+                Follow Us!
+              </h6>
+              <div class="flex w-half sm-w-80 sm-mx-auto justify-between mt-3">
+                <a href="#" class="bg-main logo-sm rounded">
+                  <i class="bx bxl-facebook color-white fs-26"></i>
+                </a>
+                <a href="#" class="bg-main logo-sm rounded">
+                  <i class="bx bxl-instagram-alt color-white fs-26"></i>
+                </a>
+                <a href="#" class="bg-main logo-sm rounded">
+                  <i class="bx bxl-github color-white fs-26"></i>
+                </a>
+                <a href="#" class="bg-main logo-sm rounded">
+                  <i class="bx bxl-twitter color-white fs-26"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact flex flex-col justify-between w-40 sm-w-full">
+            <div>
+              <h6 class="fs-16 fw-semibold poppins">Contact us</h6>
+              <form action="" class="w-full flex py-4 poppins">
+                <input
+                  type="text"
+                  class="border rounded-left outline-none p-3 fs-12 w-full"
+                  placeholder="Type here..."
+                />
+                <button
+                  type="submit"
+                  class="block py-2 px-3 fs-12 color-white border-none bg-main rounded-right"
+                >
+                  Kirim
+                </button>
+              </form>
+            </div>
+            <div class="w-full mt-5 hidden">
+              <h6 class="fs-16 fw-semibold poppins sm-text-center">
+                Follow Us!
+              </h6>
+              <div class="flex w-half sm-w-80 sm-mx-auto justify-between mt-3">
+                <a href="https://facebook.com" class="bg-main logo-sm rounded">
+                  <i class="bx bxl-facebook color-white fs-26"></i>
+                </a>
+                <div class="bg-main logo-sm rounded">
+                  <i class="bx bxl-instagram-alt color-white fs-26"></i>
+                </div>
+                <div class="bg-main logo-sm rounded">
+                  <i class="bx bxl-github color-white fs-26"></i>
+                </div>
+                <div class="bg-main logo-sm rounded">
+                  <i class="bx bxl-twitter color-white fs-26"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full fs-14 color-base poppins text-center py-5">
+        Copyright &copy; 2022 ICSO<br />made by Baraya Digital
+      </div>
+    </section>
+  </body>
+  <script src="js/main.js"></script>
+  <!-- <script>
+    const navToggle = document.querySelector(".navbar_toggle");
+    const links = document.querySelector(".nav-menu");
+
+    navToggle.addEventListener("click", function () {
+        links.classList.toggle("hidden");
+    });
+    document.onclick = function (event) {
+        if (event.target !== links && event.target !== navToggle) {
+            links.classList.add("hidden");
+        }
+    };
+
+    var btnContainer = document.getElementById("myNav");
+    var btns = btnContainer.getElementsByClassName("nav-links");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script> -->
+</html>
